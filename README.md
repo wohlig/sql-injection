@@ -1,4 +1,4 @@
-[![Build Status](https://secure.travis-ci.org/socialradar/sql-injection.png)](http://travis-ci.org/socialradar/sql-injection)
+[![Build Status](https://secure.travis-ci.org/ghafran/sql-injection.png)](http://travis-ci.org/ghafran/sql-injection)
 
 sql-injection
 =============
