@@ -1,4 +1,5 @@
 [![Build Status](https://secure.travis-ci.org/ghafran/sql-injection.png)](http://travis-ci.org/ghafran/sql-injection)
+[![NSP Status](https://nodesecurity.io/orgs/ghafran/projects/c6cb2b07-e84b-4985-84ca-ea057c88cadb/badge](https://nodesecurity.io/orgs/ghafran/projects/c6cb2b07-e84b-4985-84ca-ea057c88cadb)
 
 sql-injection
 =============
