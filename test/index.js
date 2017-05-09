@@ -21,13 +21,13 @@ describe('supertests', function() {
 
         app.use(sqlinjection);
         app.get('/test', function(req, res) {
-            res.send(200, {});
+            res.status(200).send({});
         });
         app.get('/users/:uid', function(req, res) {
-            res.send(200, {});
+            res.status(200).send({});
         });
         app.post('/body', function(req, res) {
-            res.send(200, {});
+            res.status(200).send({});
         });
         done();
     });

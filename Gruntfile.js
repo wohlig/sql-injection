@@ -1,10 +1,14 @@
-module.exports = function (grunt) {
+module.exports = function(grunt) {
     grunt.config.init({
         bump: {
-            options: { push: false }
+            options: {
+                push: false
+            }
         },
         jshint: {
-            options: { jshintrc: '.jshintrc' },
+            options: {
+                jshintrc: '.jshintrc'
+            },
             all: ['Gruntfile.js', 'lib/**/*.js', 'test/**/*.js']
         },
         simplemocha: {
@@ -21,7 +25,7 @@ module.exports = function (grunt) {
             tasks: ['jshint', 'simplemocha']
         }
     });
-    
+
     grunt.option('force', true);
     grunt.loadNpmTasks('grunt-bump');
     grunt.loadNpmTasks('grunt-contrib-jshint');
