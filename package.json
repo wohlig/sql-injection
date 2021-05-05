@@ -1,7 +1,7 @@
 {
   "name": "sql-injection-v2",
   "description": "This express module detects sql injection attacks and stops them with 403 http status code. This only works with req.params, req.query and req.body.",
-  "version": "0.0.7",
+  "version": "1.0.7",
   "author": "Chintan Shah <chintan@wohlig.com>",
   "homepage": "https://github.com/wohlig/sql-injection",
   "repository": {
