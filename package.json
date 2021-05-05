@@ -6,12 +6,10 @@
   "homepage": "https://github.com/wohlig/sql-injection",
   "repository": {
     "type": "git",
-    "url": "https://github.com/wohlig/sql-injection"
+    "url": "git+https://github.com/wohlig/sql-injection.git"
   },
   "main": "./lib/index",
-  "scripts": {
-    "test": "grunt test"
-  },
+  "scripts": {},
   "dependencies": {},
   "devDependencies": {},
   "keywords": [
@@ -27,6 +25,7 @@
     "url": "https://github.com/wohlig/sql-injection/issues"
   },
   "directories": {
+    "lib": "lib",
     "test": "test"
   },
   "license": "MIT"
